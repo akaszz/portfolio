@@ -1,0 +1,118 @@
+body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  color: rgb(136, 146, 176);
+  background-color: rgb(10, 25, 47);
+  font-size: 20px;
+  margin: 0px;
+}
+h1,
+h3 {
+  color: white;
+}
+span {
+  color: #64ffda;
+}
+.btn {
+  padding: 18px 45px;
+  background-color: rgb(10, 25, 47);
+  border: 2px solid #64ffda;
+}
+/*              header                    */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: rgb(10, 25, 47);
+}
+.inner_header {
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+.logo {
+  height: 100%;
+  display: table;
+  float: left;
+}
+.logo h1 {
+  color: white;
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+span:hover {
+  color: red;
+}
+.nav {
+  float: right;
+  height: 100%;
+}
+
+.nav a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.nav a li {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: #64ffda;
+}
+
+/*           footer            */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  margin-bottom: 100px;
+  display: block;
+  overflow: hidden;
+  padding: 100px 100px 0px 100px;
+  box-sizing: border-box;
+  /* background-color: rgb(10, 25, 47); */
+  background-color: seashell;
+}
+.inner_footer {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+}
+.inner_footer .footer_third h1 {
+  color: azure;
+  padding-bottom: 20px;
+}
+.inner_footer .footer_third a {
+  color: white;
+  display: block;
+  width: 100%;
+  /* margin-bottom: 30px; */
+  padding-bottom: 5px;
+}
+.inner_footer .footer_third {
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
